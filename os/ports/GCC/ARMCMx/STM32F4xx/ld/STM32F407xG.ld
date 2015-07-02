@@ -17,8 +17,8 @@
 /*
  * ST32F407xG memory setup.
  */
-__main_stack_size__     = 0x0400;
-__process_stack_size__  = 0x0400;
+__main_stack_size__     = 0x0800;
+__process_stack_size__  = 0x0800;
 
 MEMORY
 {

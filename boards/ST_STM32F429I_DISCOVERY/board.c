@@ -86,7 +86,7 @@ bool_t mmc_lld_is_card_inserted(MMCDriver *mmcp) {
 
   (void)mmcp;
   /* TODO: Fill the implementation.*/
-  return TRUE;
+  return !palReadPad(GPIOE, GPIOE_PIN3);
 }
 
 /**

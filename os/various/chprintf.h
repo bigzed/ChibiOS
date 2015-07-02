@@ -26,6 +26,7 @@
 #define _CHPRINTF_H_
 
 #include <stdarg.h>
+#include "ch.h"
 
 /**
  * @brief   Float type support.
